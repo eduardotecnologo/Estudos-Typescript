@@ -1,0 +1,4 @@
+-- INSERT INTO galery (titulo, caminho)
+-- VALUES('teste01','teste01');
+-- INSERT INTO galery(titulo, caminho)
+-- VALUES('teste02','teste02');
