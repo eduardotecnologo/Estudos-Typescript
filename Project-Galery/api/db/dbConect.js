@@ -6,3 +6,5 @@ const conexao = mysql.createPool({
     password: 'root',
     database: 'galery_angular'
 })
+
+module.exports = conexao

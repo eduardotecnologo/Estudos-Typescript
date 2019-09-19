@@ -6,6 +6,10 @@ const api = express()
 const port = 3000
 const router = express.Router()
 
+const Router = require('./router/Router')
+
+
+
 api.use(cors())
 
 api.use(bodyparser.urlencoded({
@@ -17,10 +21,11 @@ api.use(bodyparser.json({
 }))
 
 router.get("/", (req, res) => res.json({
-    menssage: 'Api Conectada!!!'
+    message: 'Api Conectada!!!'
 }))
 
 api.use('/', router)
+api.use('/galery', Router)
 
 api.listen(port)
 
