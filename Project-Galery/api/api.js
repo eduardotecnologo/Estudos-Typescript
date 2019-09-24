@@ -13,15 +13,19 @@ const Router = require('./router/Router')
 api.use(cors())
 
 api.use(bodyparser.urlencoded({
+    limit: '10mb',
     extended: true
 }))
 api.use(bodyparser.json({
-    limit: '20m',
+    limit: '10mb',
     extended: true
 }))
 
+//Diretório Público
+api.use('/public', express.static(__dirname + '/public'))
+
 router.get("/", (req, res) => res.json({
-    message: 'Api Conectada!!!'
+    message: 'Api Conectada manolo!!!'
 }))
 
 api.use('/', router)
