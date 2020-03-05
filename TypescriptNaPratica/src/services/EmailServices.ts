@@ -5,7 +5,7 @@ interface IMailTo {
 interface IMailMessage {
   subject: string;
   body: string;
-  attachment: string[];
+  attachment?: string[];
 }
 
 // Data Transfer Object (DDD)

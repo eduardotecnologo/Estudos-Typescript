@@ -15,12 +15,12 @@ export default {
 
     emailService.sendMail({
       to: {
-        name: 'Eduardo Developer',
-        email: 'eduardotecnologo@hotmail.com'
+        name: 'Diego Fernandes',
+        email: 'diego@rocketseat.com.br'
       },
       message: {
         subject: 'Bem-vindo ao sistema',
-        body: 'Seja bem vindo!'
+        body: 'Seja bem-vindo'
       }
     });
     return res.send('hey');
