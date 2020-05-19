@@ -3,3 +3,5 @@
 ▶ npm i body-parser express cors --save
  edudeveloper@Eduardo-MacBook-Pro  ~/Documents/Git/Estudos-Typescript/SON/type_node   e 1 ↵  4552  11:00:53
 ▶ npm install -D @types/body-parser @types/node @types/cors @types/express ts-node typescript
+ edudeveloper@Eduardo-MacBook-Pro  ~/Documents/Git/Estudos-Typescript/SON/type_node   edu ✔  4554  11:07:34
+▶ yarn add morgan --save
