@@ -7,7 +7,7 @@ interface IUser {
 interface Props {
   user: IUser;
 }
-const User = ({ user }: Props) => {
+const User: React.FC<Props> = ({ user }) => {
   return (
     <div>
       <strong>Nome:</strong>
