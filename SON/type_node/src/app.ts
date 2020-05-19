@@ -37,7 +37,7 @@ class App {
       rotute: (rotute: any) => void) => void;
   }) {
     routers.forEach(rotute => {
-      this.app.use('/', rotute);
+      this.app.use('/', rotute.router);
     });
   }
 }
